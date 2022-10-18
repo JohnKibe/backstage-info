@@ -8,7 +8,7 @@ metadata:
     system: gitlab
     lifecycle: production
   annotations:
-    gitlab.com/project-id: '604'
+    gitlab.com/project-id: '2325'
 spec:
   lifecycle: production
   owner: cicd
