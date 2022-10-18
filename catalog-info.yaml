@@ -1,15 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: cellulant-banebp
-  description: An example of a Backstage application.
-    annotations:
-      'backstage.io/kubernetes-id': banebp
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  name: cellulant-gitlab
+  description: |
+    GitLab service
+  labels:
+    system: gitlab
+    lifecycle: production
+  annotations:
+    gitlab.com/project-slug: 'ops-templates'
 spec:
-  type: website
-  owner: kibet@example.com
-  lifecycle: experimental
+  type: service
