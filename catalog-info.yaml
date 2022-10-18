@@ -10,4 +10,6 @@ metadata:
   annotations:
     gitlab.com/project-slug: 'ops-templates'
 spec:
+  lifecycle: production
+  owner: cicd
   type: service
